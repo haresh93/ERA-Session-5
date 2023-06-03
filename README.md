@@ -1,13 +1,12 @@
 # ERA-Session-5
-# PyTorch CNN Classifier
 
 This repository contains a PyTorch implementation of a Convolutional Neural Network (CNN) classifier. The CNN model is designed to classify images from the MNIST dataset into one of the ten digits (0-9).
 
 ## Table of Contents
 
-- [Project Structure](#Project Structure)
-- [Net Class](#Net Class)
-- [Model Class](#Model Class)
+- [Project Structure](#Project_Structure)
+- [Net Class](#Net_Class)
+- [Model Class](#Model_Class)
 - [Utils](#Utils)
 
 ## Project Structure
@@ -51,7 +50,7 @@ The `Model` class stores the actual running of the CNN model along with the resu
     1. Set the model to evaluation mode as the first step
     2. We have to Temporarily disable gradient calculation and gradient updates. This is done to speed up the evaluation process and reduce memory consumption.
     3. Then we iterate over the batches in the testing data loader
-    4. 
+
 - The `run` method executes the training and testing for the specified number of epochs.
 
 ## Utils functions
